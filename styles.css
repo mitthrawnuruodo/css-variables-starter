@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the service boxes */
+.service {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style for service titles */
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style for service descriptions */
+.service p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style for the contact info and form */
+.contact-form {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Style for the contact form container */
+.contact-form form {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Style for form labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for form input fields and textarea */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
